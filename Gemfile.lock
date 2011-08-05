@@ -57,6 +57,7 @@ GEM
     do_postgres (0.10.6)
       data_objects (= 0.10.6)
     eventmachine (0.12.10)
+    extlib (0.9.15)
     fastercsv (1.5.4)
     json (1.4.6)
     liquid (2.2.2)
@@ -90,6 +91,7 @@ DEPENDENCIES
   data_mapper (~> 1.1.0)
   dm-mysql-adapter
   dm-postgres-adapter
+  extlib
   liquid
   rack-test
   rspec
