@@ -46,7 +46,7 @@ class Nancy < Sinatra::Base
         :type => "text/javascript",
         :charset => "utf-8"
       })
-      attrs[:src] = "/js/#{attrs[:src]}.js" unless attrs[:src].nil?
+      attrs[:src] = "/javascripts/#{attrs[:src]}.js" unless attrs[:src].nil?
       "#{tag :script, attrs}</script>"
     end
   
