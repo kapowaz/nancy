@@ -60,6 +60,7 @@ class Nancy < Sinatra::Base
     def partial(template, options={})
       erb "partials/_#{template}".to_sym, options.merge(:layout => false)
     end
+  end
   
   helpers ViewHelpers
 end
