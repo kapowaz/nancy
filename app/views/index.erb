@@ -1,0 +1,22 @@
+<h1><%= @page[:title] %></h1>
+
+<p>Nancy is a simple skeleton project for Sinatra, that makes a few basic assumptions:</p>
+
+<ul>
+	<li>You're deploying on the <a href="http://devcenter.heroku.com/articles/cedar">Heroku cedar stack</a> (ruby 1.9.2)</li>
+	<li>You're using <a href="http://datamapper.org/">DataMapper</a> as your ORM</li>
+	<li>You're using a MySQL database locally, the Heroku-supplied Postgres database in production</li>
+	<li>You're using <a href="http://gembundler.com/">bundler</a> and <a href="http://beginrescueend.com/">rvm</a></li>
+	<li>You're testing with <a href="http://relishapp.com/rspec">rspec2</a> and <a href="http://docs.jquery.com/Qunit">Qunit</a></li>
+	<li>You're using <a href="http://pow.cx/">pow</a> to run locally on Mac OS X</li>
+</ul>
+
+<p>Steps to set up:</p>
+
+<ul>
+	<li>Create a gemset called nancy (or your choice, editing .rvmrc)</li>
+	<li><code>$ bundle install</code></li>
+	<li>Create a copy of config/database.example.yml => config/database.yml with appropriate settings</li>
+	<li><code>$ rake db:setup</code></li>
+	<li><code>$ ln -s ~/Path/to/nancy ~/.pow/nancy</code></li>
+</ul>
