@@ -9,4 +9,5 @@ gem "dm-mysql-adapter",       :groups => [:development, :test]
 gem "data_mapper",            "~> 1.1.0"
 gem "extlib"
 gem "sinatra"
+gem "herbie"
 gem "colored"

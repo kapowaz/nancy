@@ -9,6 +9,7 @@ Nancy is a simple skeleton project for Sinatra, that makes a few basic assumptio
 * You're using [bundler](http://gembundler.com/) and [rvm](http://beginrescueend.com/)
 * You're testing with [rspec2](http://relishapp.com/rspec) and [Qunit](http://docs.jquery.com/Qunit)
 * You're using [pow](http://pow.cx/) to run locally on Mac OS X
+* Additionally, if you're using ERB-based templates, it includes [Herbie](http://github.com/kapowaz/herbie) for HTML helpers.
 
 Steps to set up:
 

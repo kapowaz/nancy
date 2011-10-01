@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'sinatra/base'
+require 'herbie'
 require 'data_mapper'
 require 'extlib'
 

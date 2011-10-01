@@ -5,10 +5,6 @@ class Nancy < Sinatra::Base
       hash.each_pair {|key, value| hash.delete key if value.nil?}
     end
 
-    def partial(template, options={})
-      erb template, options.merge(:layout => false)
-    end
-
     def uri_escape(string)
       URI.escape(string, Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))
     end
