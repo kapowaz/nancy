@@ -56,10 +56,13 @@ GEM
       data_objects (= 0.10.6)
     do_postgres (0.10.6)
       data_objects (= 0.10.6)
+    erubis (2.7.0)
     eventmachine (0.12.10)
     extlib (0.9.15)
     fastercsv (1.5.4)
-    herbie (0.0.2)
+    herbie (0.1.5)
+      erubis
+      tilt
     json (1.4.6)
     liquid (2.2.2)
     rack (1.3.2)
@@ -93,7 +96,7 @@ DEPENDENCIES
   dm-mysql-adapter
   dm-postgres-adapter
   extlib
-  herbie
+  herbie (~> 0.1.5)
   liquid
   rack-test
   rspec
